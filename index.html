@@ -29,38 +29,40 @@
     <div class="main-wrapper">
       <h1>Tip Calculator</h1>
       <form>
-
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <span class="input-group-text">$</span>
-  </div>
-  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Total Bill">
-</div>
-
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <span class="input-group-text">Tip:</span>
-  </div>
-  <input type="range" class="form-control-range" id="formControlRange">
-  <div class="input-group-append">
-    <span class="input-group-text">0%</span>
-  </div>
-</div>
-
-
-
-        
+        <!--Total Bill Input Section -->
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+          <span class="input-group-text">$</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Total Bill">
+        </div>
+        <!--Tip Range Selector Section -->
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Tip</span>
+          </div>
+          <input type="range" class="form-control-range" id="formControlRange">
+          <div class="input-group-append">
+            <span class="input-group-text">0%</span>
+          </div>
+        </div>
+        <!--Results Section -->
         <div class="line"></div>
         <h3>Results</h3>
-        <label for="tip-amount">Tip Amount</label>
-        <input type="number" name="tip-amount" placeholder="0.00"><br><br>
-        <label type="number" name="total-with-tip">Total Bill with Tip</label>
-        <input type="number" name="total-with-tip" placeholder="0.00">
-      </form>
-    </div>
-  
-
-
+        <!--Tip Amount Section -->
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+          <span class="input-group-text">Tip Amount</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="0.00">
+        </div>
+        <!-- Total Bill with Tip Section -->
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+          <span class="input-group-text">Total Bill with Tip</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="0.00">
+        </div>
 
     <!-- Bootstrap bundle -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
