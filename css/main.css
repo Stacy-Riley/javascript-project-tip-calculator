@@ -103,18 +103,15 @@ textarea {
 /*******************************************************/
 /**Home Page**/
 /*******************************************************/
-body {
-  background: url("../img/sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 .main-wrapper {
   margin: auto;
-  padding: 10px;
-  width: 95%;
-  max-height: 300px;
-  
+  padding: 15px;
+  width: 100%;
+  max-height: 400px;
+  background: url("../img/sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1, h3{
@@ -154,13 +151,15 @@ input {
 }
 
 footer p {
-  margin: 50px 0;
+  margin-top: 20px;
   text-align: center;
   color: #595959;
+  font-size: 10px;
 }
 
 footer a {
   color: #595959;
+  font-size: 10px;
 }
 
 footer a:hover {
@@ -177,9 +176,8 @@ footer a:hover {
   /*******************************************************/
   .main-wrapper {
   margin: auto;
-  padding: 10px;
   max-width: 55%;
-  max-height: 300px;
+  max-height: 450px;
   }
 
   h1, h3{
@@ -193,9 +191,9 @@ footer a:hover {
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
   }
-  
+
   footer p {
-  margin: 100px 0;
+  margin: 15px 0;
   }
  }
 
@@ -207,19 +205,9 @@ footer a:hover {
   /**** Home Page Styles - Desktop ****/
   /*******************************************************/
   footer p {
-  margin: 150px 0;
+  margin: 50px 0;
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
