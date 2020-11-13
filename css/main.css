@@ -103,15 +103,18 @@ textarea {
 /*******************************************************/
 /**Home Page**/
 /*******************************************************/
-
+body {
+  background: url("../img/sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 400px;
+}
 .main-wrapper {
   margin: auto;
   padding: 15px 15px 0 15px;
   width: 100%;
   max-height: 400px;
-  background: url("../img/sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  
 }
 
 h1, h3{
